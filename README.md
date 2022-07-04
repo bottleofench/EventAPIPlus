@@ -16,7 +16,7 @@ Add dependency to pom.xml:
 <dependency>
     <groupId>com.github.LifelineMC</groupId>
     <artifactId>EventAPIPlus</artifactId>
-    <version>master-SNAPSHOT</version>
+    <version>-SNAPSHOT</version>
     <scope>provided</scope>
 </dependency>
 ```

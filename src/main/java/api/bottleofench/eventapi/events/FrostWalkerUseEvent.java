@@ -19,11 +19,11 @@ public class FrostWalkerUseEvent extends Event implements Cancellable {
         FrostWalkerUseEvent.frosted_ice = frosted_ice;
     }
 
-    public static Player getPlayer() {
+    public Player getPlayer() {
         return player;
     }
 
-    public static Block getFrostedIce() {
+    public Block getFrostedIce() {
         return frosted_ice;
     }
 

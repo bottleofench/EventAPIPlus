@@ -19,11 +19,11 @@ public class ItemFrameCreateEvent extends Event implements Cancellable {
         ItemFrameCreateEvent.itemFrame = itemFrame;
     }
 
-    public static Player getPlayer() {
+    public Player getPlayer() {
         return player;
     }
 
-    public static ItemFrame getItemFrame() {
+    public ItemFrame getItemFrame() {
         return itemFrame;
     }
 
