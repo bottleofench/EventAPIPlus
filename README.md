@@ -3,16 +3,15 @@
 An API that adding a bunch of extra events to make it easier to develop plugins on SpigotAPI / PaperAPI.
 
 ## Adding to the project
-Add Jitpack repository to pom.xml:
+
+### Maven
+
 ```xml
 <repository>
     <id>jitpack.io</id>
     <url>https://jitpack.io</url>
 </repository>
 
-```
-Add dependency to pom.xml:
-```xml
 <dependency>
     <groupId>com.github.LifelineMC</groupId>
     <artifactId>EventAPIPlus</artifactId>
@@ -21,6 +20,19 @@ Add dependency to pom.xml:
 </dependency>
 ```
 
+### Gradle
+```
+allprojects {
+    repositories {
+    	...
+    	maven { url 'https://jitpack.io' }
+    }
+}
+
+dependencies {
+    implementation 'com.github.LifelineMC:EventAPIPlus:-SNAPSHOT'
+}
+```
 
 ## List of events
 - FrostWalkerUseEvent
