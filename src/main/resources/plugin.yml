@@ -1,0 +1,6 @@
+name: EventAPIPlus
+version: '${project.version}'
+main: api.bottleofench.eventapi.EventAPIPlus
+api-version: 1.19
+authors: [ bottleofench ]
+description: An API that extends the EventAPI, adding a bunch of extra event sequences to make it easier to develop plugins on SpigotAPI / PaperAPI.
